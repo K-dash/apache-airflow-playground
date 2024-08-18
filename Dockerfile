@@ -5,10 +5,10 @@ USER root
 RUN apt-get update && apt-get install -y \
     git \
     vim \
+    make \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# プロジェクトファイルをコンテナにコピー
 COPY . /opt/airflow
 
 USER airflow

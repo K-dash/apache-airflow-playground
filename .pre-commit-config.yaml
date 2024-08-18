@@ -1,0 +1,17 @@
+repos:
+  - repo: local
+    hooks:
+      # Run the linter.
+      - id: lint
+        name: Lint
+        entry: make lint
+        types: [python]
+        language: system
+        pass_filenames: false
+      # Run the formatter.
+      - id: format
+        name: Format
+        entry: make format
+        types: [python]
+        language: system
+        pass_filenames: false

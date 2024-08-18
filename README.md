@@ -20,7 +20,7 @@ This project uses Poetry for package management, but installs packages globally 
 
 ## Usage
 
-To start developing with the .devcontainer:
+To start developing with the `.devcontainer`.
 
 1. Clone this repository.
 ```bash
@@ -35,8 +35,8 @@ code .
 
 
 3. When prompted by VS Code, click "Reopen in Container". Alternatively, you can.
-- Press `F1` and select `Remote-Containers: Reopen in Container`
-- Click the green button in the lower-left corner and select `Reopen in Container`
+  - Press `F1` and select `Remote-Containers: Reopen in Container`
+  - Click the green button in the lower-left corner and select `Reopen in Container`
 
 4. Wait for the container to build and start. This may take a few minutes the first time.
 

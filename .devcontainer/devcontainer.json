@@ -1,0 +1,25 @@
+{
+    "name": "Airflow Development",
+    "dockerComposeFile": "../docker-compose.yaml",
+    "service": "airflow-webserver",
+    "workspaceFolder": "/opt/airflow",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "redhat.vscode-yaml",
+                "eamodio.gitlens",
+                "tamasfe.even-better-toml",
+                "Codeium.codeium",
+                "oderwat.indent-rainbow",
+                "mechatroner.rainbow-csv",
+                "shardulm94.trailing-spaces",
+                "ms-azuretools.vscode-docker",
+                "fill-labs.dependi"
+            ]
+        }
+    },
+    "remoteUser": "airflow",
+    "forwardPorts": [8080]
+}
